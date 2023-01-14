@@ -22,8 +22,8 @@ public class TestAgenHora {
 	    //throw new PendingException();
 	}
 
-	@When("^Se inicia sesión con usuario \"([^\"]*)\" y password \"([^\"]*)\" se válida$")
-	public void se_inicia_sesión_con_usuario_y_password_se_válida(String string, String string2) throws Throwable {
+	@When("^Se inicia sesión con usuario \"([^\"]*)\" y password \"([^\"]*)\"$")
+	public void se_inicia_sesión_con_usuario_y_password(String string, String string2) throws Throwable {
 		System.out.println("Se ingresa nombre de usuario y password para ser validados");
 	    driver.findElement(By.id("nombreUsuario")).sendKeys(string);
 	    driver.findElement(By.id("password")).sendKeys(string2);
