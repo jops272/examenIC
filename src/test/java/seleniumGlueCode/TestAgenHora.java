@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class TestAgenHora {
 	
-	WebDriver driver;
+	private WebDriver driver;
 
 	@Given("^El usuario está en la pantalla de inicio sesión en google chrome$")
 	public void el_usuario_está_en_la_pantalla_de_inicio_sesión_en_google_chrome() throws Throwable {
