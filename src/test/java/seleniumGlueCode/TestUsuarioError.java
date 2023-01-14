@@ -1,6 +1,7 @@
 package seleniumGlueCode;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import cucumber.api.java.en.Given;
@@ -9,7 +10,7 @@ import cucumber.api.java.en.When;
 
 public class TestUsuarioError {
 
-	private ChromeDriver driver;
+	WebDriver driver;
 	
 	@Given("^El usuario se encuentra en la pantalla inicio de sesión$")
 	public void el_usuario_se_encuentra_en_la_pantalla_inicio_de_sesión() throws Throwable {

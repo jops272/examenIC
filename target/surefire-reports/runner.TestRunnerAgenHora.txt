@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunnerAgenHora
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 10.346 s <<< FAILURE! - in runner.TestRunnerAgenHora
+When Se inicia sesión con usuario "jops" y password "1234" se válida(Scenario: Ingresar al agendamiento de hora desde la pantalla inicio de sesion y menu.)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nombreUsuario"}
+  (Session info: chrome=75.0.3770.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-80QDO0I', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\kako\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0e909733777f2525b799ed1e7bf36ec
+*** Element info: {Using=id, value=nombreUsuario}
+
+Scenario: Ingresar al agendamiento de hora desde la pantalla inicio de sesion y menu.  Time elapsed: 0.016 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nombreUsuario"}
+  (Session info: chrome=75.0.3770.90)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-80QDO0I', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\kako\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50125}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b0e909733777f2525b799ed1e7bf36ec
+*** Element info: {Using=id, value=nombreUsuario}
+

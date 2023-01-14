@@ -1,0 +1,231 @@
+# Created at 2023-01-12T23:59:18.535
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2023-01-12T23:59:19.547
+Unexpected IOException: 5,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,Given El usuario se encuentra en la pantalla inicio de sesi\00F3n(Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n),null,null,null
+
+
+# Created at 2023-01-12T23:59:19.553
+Unexpected IOException: 7,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,Given El usuario se encuentra en la pantalla inicio de sesi\00F3n(Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n),null,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,org.openqa.selenium.WebDriverException: \000Ajava.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver\000ACaused by: java.net.SocketException: Connection reset\000A
+
+
+# Created at 2023-01-12T23:59:19.556
+Unexpected IOException: 7,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,null,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,java.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver,org.openqa.selenium.WebDriverException: \000Ajava.net.SocketException: Connection reset\000ABuild info: version: '3.7.1'\002C revision: '8a0099a'\002C time: '2017-11-06T21:01:39.354Z'\000ASystem info: host: 'DESKTOP-80QDO0I'\002C ip: '192.168.1.11'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: ChromeDriver\000ACaused by: java.net.SocketException: Connection reset\000A
+
+
+# Created at 2023-01-12T23:59:19.558
+Unexpected IOException: 9,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,When Al ingresar nombre de usuario incorrecto "pepito"(Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n),null,null,null
+
+
+# Created at 2023-01-12T23:59:19.559
+Unexpected IOException: 9,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,When Al ingresar password incorrecto "1010"(Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n),null,null,null
+
+
+# Created at 2023-01-12T23:59:19.560
+Unexpected IOException: 9,1,Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n,Then Al presionar el bot\00F3n ingresar\002C se debe redirigir a la pantalla error(Scenario: Ingresa a la pantalla error desde el inicio de sesi\00F3n),null,null,null
+
+
+# Created at 2023-01-12T23:59:19.560
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.561
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2023-01-12T23:59:19.562
+Unexpected IOException with stream: [31msrc/test/java/features/testUsuError.feature:3 [0m
+
+# Created at 2023-01-12T23:59:19.563
+Unexpected IOException with stream: # Scenario: Ingresa a la pantalla error desde el inicio de sesión
+
+
+# Created at 2023-01-12T23:59:19.563
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.565
+Unexpected IOException with stream: 1
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: )
+
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: 4
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream:  Steps (
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: , 
+
+# Created at 2023-01-12T23:59:19.566
+Unexpected IOException with stream: [36m3 skipped[0m
+
+# Created at 2023-01-12T23:59:19.573
+Unexpected IOException with stream: )
+
+
+# Created at 2023-01-12T23:59:19.573
+Unexpected IOException with stream: 0m
+
+# Created at 2023-01-12T23:59:19.574
+Unexpected IOException with stream: 9,490s
+
+
+# Created at 2023-01-12T23:59:19.575
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.576
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: java.net.SocketException: Connection reset
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-80QDO0I', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+
+# Created at 2023-01-12T23:59:19.577
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at seleniumGlueCode.TestUsuarioError.el_usuario_se_encuentra_en_la_pantalla_inicio_de_sesión(TestUsuarioError.java:18)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at ?.Given El usuario se encuentra en la pantalla inicio de sesión(src/test/java/features/testUsuError.feature:5)
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: Caused by: java.net.SocketException: Connection reset
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.578
+Unexpected IOException with stream: 	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+
+# Created at 2023-01-12T23:59:19.594
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.594
+Unexpected IOException with stream: 	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+
+# Created at 2023-01-12T23:59:19.596
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.597
+Unexpected IOException with stream: 	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+
+# Created at 2023-01-12T23:59:19.597
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.598
+Unexpected IOException with stream: 	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+
+# Created at 2023-01-12T23:59:19.598
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.598
+Unexpected IOException with stream: 	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:282)
+
+# Created at 2023-01-12T23:59:19.598
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.598
+Unexpected IOException with stream: 	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+
+# Created at 2023-01-12T23:59:19.601
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.601
+Unexpected IOException with stream: 	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+
+# Created at 2023-01-12T23:59:19.601
+Unexpected IOException with stream: 
+
+
+# Created at 2023-01-12T23:59:19.602
+Unexpected IOException with stream: 	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+
+# Created at 2023-01-12T23:59:19.602
+Unexpected IOException with stream: 
+
+

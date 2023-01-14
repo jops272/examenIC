@@ -1,0 +1,6 @@
+runner\TestRunnerAgenHora.class
+runner\TestRunnerUsuarioError.class
+seleniumGlueCode\TestAgenHora.class
+seleniumGlueCode\TestUsuarioOk.class
+runner\TestRunnerUsuarioOK.class
+seleniumGlueCode\TestUsuarioError.class
